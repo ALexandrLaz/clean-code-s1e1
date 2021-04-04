@@ -23,31 +23,35 @@
     </header>
     <main class="main">
       <section id="add-item">
-        <label for="new-task" class="all-label">Add Item</label>
+        <label for="new-task" class="all-lists__all-label">Add Item</label>
         <div class="task-wrap">
-          <input id="new-task" class="task all-inp" type="text" />
-          <button class="all-btn">Add</button>
+          <input id="new-task" class="task all-lists__all-inp" type="text" />
+          <button class="all-lists__all-btn">Add</button>
         </div>
       </section>
       <h3 class="heading-h3">Todo</h3>
       <section>
         <ul id="incomp-tasks" class="all-lists">
           <li class="all-lists__item">
-            <input type="checkbox" class="all-inp" />
-            <label class="task all-label">Pay Bills</label>
-            <input type="text" class="all-inp" />
-            <button class="edit all-btn">Edit</button>
-            <button class="delete all-btn">
-              <img src="./remove.svg" class="dell-img" alt="remove task" />
+            <input type="checkbox" class="all-lists__all-inp" />
+            <label class="task all-lists__all-label">Pay Bills</label>
+            <input type="text" class="all-lists__all-inp" />
+            <button class="edit all-lists__all-btn">Edit</button>
+            <button class="delete all-lists__all-btn">
+              <img src="./remove.svg" class="all-lists__dell-img" alt="remove task" />
             </button>
           </li>
           <li class="edit-mode all-lists__item">
-            <input type="checkbox" class="all-inp" />
-            <label class="task all-label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task all-inp" />
-            <button class="edit all-btn">Save</button>
-            <button class="delete all-btn">
-              <img src="./remove.svg" class="dell-img" alt="remove task" />
+            <input type="checkbox" class="all-lists__all-inp" />
+            <label class="task all-lists__all-label">Go Shopping</label>
+            <input
+              type="text"
+              value="Go Shopping"
+              class="task all-lists__all-inp"
+            />
+            <button class="edit all-lists__all-btn">Save</button>
+            <button class="delete all-lists__all-btn">
+              <img src="./remove.svg" class="all-lists__dell-img" alt="remove task" />
             </button>
           </li>
         </ul>
@@ -56,12 +60,12 @@
       <section>
         <ul id="compl-tasks" class="all-lists">
           <li class="all-lists__item">
-            <input type="checkbox" class="all-inp" checked />
-            <label class="task all-label">See the Doctor</label>
-            <input type="text" class="task all-inp" />
-            <button class="edit all-btn">Edit</button>
-            <button class="delete all-btn">
-              <img src="./remove.svg" class="dell-img" alt="remove task" />
+            <input type="checkbox" class="all-lists__all-inp" checked />
+            <label class="task all-lists__all-label">See the Doctor</label>
+            <input type="text" class="task all-lists__all-inp" />
+            <button class="edit all-lists__all-btn">Edit</button>
+            <button class="delete all-lists__all-btn">
+              <img src="./remove.svg" class="all-lists__dell-img" alt="remove task" />
             </button>
           </li>
         </ul>

@@ -18,11 +18,9 @@
 }
 
 @media (max-width: 768px) {
-
   .header {
     text-align: center;
   }
-  
 }
 .main {
   display: block;
@@ -45,11 +43,11 @@
 .heading-h3 {
   list-style: none;
 }
-.all-inp,
-.all-btn {
+.all-lists__all-inp,
+.all-lists__all-btn {
   outline: none;
 }
-.all-btn {
+.all-lists__all-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -58,12 +56,12 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.all-btn:hover {
+.all-lists__all-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
 .heading-h3,
-.all-label[for="new-task"] {
+.all-lists__all-label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -72,7 +70,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.all-inp[type="text"] {
+.all-lists__all-inp[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -84,19 +82,19 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.all-inp[type="text"]:focus {
+.all-list__all-inp[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
-.all-label[for="new-task"] {
+.all-lists__all-label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
 #new-task {
   width: 318px;
 }
-#add-item > .all-btn:hover {
+#add-item > .all-lists__all-btn:hover {
   color: #0fc57c;
 }
 
@@ -114,46 +112,46 @@
   vertical-align: middle;
 }
 
-.all-lists__item > .all-inp[type="checkbox"] {
+.all-lists__item > .all-lists__all-inp[type="checkbox"] {
   margin: 0 10px;
 }
-.all-lists__item > .all-label {
+.all-lists__item > .all-lists__all-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.all-lists__item > .all-inp[type="text"] {
+.all-lists__item > .all-lists__all-inp[type="text"] {
   width: 226px;
 }
 .all-lists__item > .delete:hover {
   color: #cf2323;
 }
-.delete .dell-img {
+.delete .all-lists__dell-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete .dell-img:hover {
+.delete .all-lists__dell-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#compl-tasks .all-label {
+#compl-tasks .all-lists__all-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.all-lists__item .all-inp[type="text"] {
+.all-lists__item .all-lists__all-inp[type="text"] {
   display: none;
 }
 
-.edit-mode .all-inp[type="text"] {
+.edit-mode .all-lists__all-inp[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .all-label {
+.edit-mode .all-lists__all-label {
   display: none;
 }

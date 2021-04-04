@@ -34,23 +34,23 @@ var createNewTaskElement=function(taskString){
 
     label.innerText=taskString;
     label.classList.toggle("task");
-    label.classList.toggle("all-label");
+    label.classList.toggle("all-lists__all-label");
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    checkBox.classList.toggle("all-inp")
+    checkBox.classList.toggle("all-lists__all-inp")
     editInput.type="text";
     editInput.classList.toggle("task");
-    editInput.classList.toggle("all-inp");
+    editInput.classList.toggle("all-lists__all-inp");
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.classList.toggle("edit");
-    editButton.classList.toggle("all-btn");
+    editButton.classList.toggle("all-lists__all-btn");
 
     deleteButton.classList.toggle("delete");
-    deleteButton.classList.toggle("all-btn");
+    deleteButton.classList.toggle("all-lists__all-btn");
     deleteButtonImg.src='./remove.svg';
-    deleteButtonImg.classList.toggle("dell-img")
+    deleteButtonImg.classList.toggle("all-lists__dell-img")
     deleteButtonImg.setAttribute("alt", "remove task");
     deleteButton.appendChild(deleteButtonImg);
 
