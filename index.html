@@ -2,19 +2,30 @@
 <html>
   <head>
     <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
   </head>
   <body class="all-page">
     <header class="header">
-      <img src="./eisenhower-matrix.jpg" class="header-img">
-      <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <img
+        src="./eisenhower-matrix.jpg"
+        class="header-img"
+        alt="The Eisenhower matrix"
+      />
+      <a
+        class="more-inf"
+        href="https://goal-life.com/page/method/matrix-eisenhower"
+        >Want more details?</a
+      >
     </header>
     <main class="main">
       <section id="add-item">
         <label for="new-task" class="all-label">Add Item</label>
         <div class="task-wrap">
-          <input id="new-task"class="task all-inp" type="text">
+          <input id="new-task" class="task all-inp" type="text" />
           <button class="all-btn">Add</button>
         </div>
       </section>
@@ -22,18 +33,22 @@
       <section>
         <ul id="incomp-tasks" class="all-lists">
           <li class="all-lists__item">
-            <input type="checkbox" class="all-inp">
+            <input type="checkbox" class="all-inp" />
             <label class="task all-label">Pay Bills</label>
-            <input type="text" class="all-inp">
+            <input type="text" class="all-inp" />
             <button class="edit all-btn">Edit</button>
-            <button class="delete all-btn"><img src="./remove.svg" class="dell-img"></button>
+            <button class="delete all-btn">
+              <img src="./remove.svg" class="dell-img" alt="remove task" />
+            </button>
           </li>
           <li class="edit-mode all-lists__item">
-            <input type="checkbox" class="all-inp">
+            <input type="checkbox" class="all-inp" />
             <label class="task all-label">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task all-inp">
+            <input type="text" value="Go Shopping" class="task all-inp" />
             <button class="edit all-btn">Save</button>
-            <button class="delete all-btn"><img src="./remove.svg" class="dell-img"></button>
+            <button class="delete all-btn">
+              <img src="./remove.svg" class="dell-img" alt="remove task" />
+            </button>
           </li>
         </ul>
       </section>
@@ -41,11 +56,13 @@
       <section>
         <ul id="compl-tasks" class="all-lists">
           <li class="all-lists__item">
-            <input type="checkbox" class="all-inp" checked>
+            <input type="checkbox" class="all-inp" checked />
             <label class="task all-label">See the Doctor</label>
-            <input type="text" class="task all-inp">
+            <input type="text" class="task all-inp" />
             <button class="edit all-btn">Edit</button>
-            <button class="delete all-btn"><img src="./remove.svg" class="dell-img"></button>
+            <button class="delete all-btn">
+              <img src="./remove.svg" class="dell-img" alt="remove task" />
+            </button>
           </li>
         </ul>
       </section>
